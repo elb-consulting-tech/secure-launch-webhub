@@ -1,0 +1,32 @@
+📂 Verzeichnisstruktur:
+├── dist/            ⭐ Dies ist der Produktions-Build (empfohlen für die direkte Nutzung)
+│   ├── index.html   → Diese Datei im Browser öffnen, um die Website zu sehen
+│   ├── assets/      → Gebündelte CSS-, JS- und andere Ressourcendateien
+│   └── ...
+├── src/             📝 Quellcode-Verzeichnis (für Entwicklung und Modifikation)
+│   ├── components/  → React-Komponenten
+│   ├── App.jsx      → Hauptanwendungskomponente
+│   ├── index.js     → Einstiegsdatei
+│   └── ...
+├── package.json     📦 Projektabhängigkeitskonfiguration
+├── README.md        📖 Projektdokumentation
+└── ...
+
+🚀 Schnellstart (Zwei Optionen):
+Option 1: Direkte Nutzung (Empfohlen für Anfänger)
+1. Navigiere zum dist/-Verzeichnis
+2. Doppelklicke auf die index.html-Datei
+3. Die Website öffnet sich in deinem Browser!
+
+Option 2: Entwicklungsmodus (Für Benutzer mit Programmiererfahrung)
+1. Stelle sicher, dass Node.js installiert ist (empfohlene Version: 16+)
+2. Öffne das Terminal/Kommandozeile im Projektstammverzeichnis
+3. Führe aus: npm install
+4. Führe aus: npm start
+5. Der Entwicklungsserver öffnet sich automatisch in deinem Browser
+
+💡 Tipps:
+- Das dist/-Verzeichnis enthält den optimierten Build und kann direkt auf einem Server bereitgestellt werden
+- Die index.html auf der Wurzelebene ist nicht die endgültige Version — verwende immer die im dist/-Verzeichnis
+- Um den Code zu ändern, bearbeite Dateien im src/-Verzeichnis und baue das Projekt neu
+- Das Projekt verwendet TypeScript und Tailwind CSS als Technologie-Stack
